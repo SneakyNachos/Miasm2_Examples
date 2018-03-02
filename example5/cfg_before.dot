@@ -1,0 +1,92 @@
+digraph asm_graph {
+8747833991317 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_000000000040171F</td></tr><tr><td align="left">MOV        RAX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFF88]</td></tr><tr><td align="left">MOV        RDI, RAX</td></tr><tr><td align="left">CALL       loc_0000000000400680:0x00400680</td></tr></table>> ];
+8747833991233 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_0000000000401702</td></tr><tr><td align="left">MOV        RDI, QWORD PTR [RBP + 0xFFFFFFFFFFFFFF90]</td></tr><tr><td align="left">CALL       loc_00000000004006B0:0x004006b0</td></tr></table>> ];
+8747833986285 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004016CB</td></tr><tr><td align="left">MOV        DWORD PTR [RBP + 0xFFFFFFFFFFFFFFA4], EAX</td></tr></table>> ];
+8747834008081 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_0000000000401550</td></tr><tr><td align="left">PUSH       RBP</td></tr><tr><td align="left">MOV        RBP, RSP</td></tr><tr><td align="left">SUB        RSP, 0x80</td></tr><tr><td align="left">MOV        DWORD PTR [RBP + 0xFFFFFFFFFFFFFFFC], 0x0</td></tr><tr><td align="left">MOV        DWORD PTR [RBP + 0xFFFFFFFFFFFFFFF8], EDI</td></tr><tr><td align="left">MOV        QWORD PTR [RBP + 0xFFFFFFFFFFFFFFF0], RSI</td></tr><tr><td align="left">CMP        DWORD PTR [RBP + 0xFFFFFFFFFFFFFFF8], 0x2</td></tr><tr><td align="left">JGE        loc_0000000000401594:0x00401594</td></tr></table>> ];
+8747833981077 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004015FE</td></tr><tr><td align="left">MOV        RDI, 0x50</td></tr><tr><td align="left">MOV        QWORD PTR [RBP + 0xFFFFFFFFFFFFFFD8], RAX</td></tr><tr><td align="left">CALL       loc_0000000000400670:0x00400670</td></tr></table>> ];
+8747833986201 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004016BC</td></tr><tr><td align="left">LEA        RDI, QWORD PTR [0x401ACE]</td></tr><tr><td align="left">MOV        AL, 0x0</td></tr><tr><td align="left">CALL       loc_0000000000400650:0x00400650</td></tr></table>> ];
+8747833980965 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004015C8</td></tr><tr><td align="left">MOV        RDI, RAX</td></tr><tr><td align="left">MOV        QWORD PTR [RBP + 0xFFFFFFFFFFFFFFC0], RAX</td></tr><tr><td align="left">CALL       loc_0000000000401760:0x00401760</td></tr></table>> ];
+8747833991337 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_000000000040174B</td></tr><tr><td align="left">MOV        DWORD PTR [RBP + 0xFFFFFFFFFFFFFFFC], 0x0</td></tr></table>> ];
+8747834008237 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004015A1</td></tr><tr><td align="left">CMP        RAX, 0x30</td></tr><tr><td align="left">JBE        loc_00000000004015B9:0x004015b9</td></tr></table>> ];
+8747833981149 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_0000000000401630</td></tr><tr><td align="left">LEA        RAX, QWORD PTR [0x6022A0]</td></tr><tr><td align="left">MOV        RDX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFD8]</td></tr><tr><td align="left">MOV        RSI, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE0]</td></tr><tr><td align="left">MOV        QWORD PTR [RSI + 0x18], RDX</td></tr><tr><td align="left">MOV        RDX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFD0]</td></tr><tr><td align="left">MOV        RSI, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE0]</td></tr><tr><td align="left">MOV        QWORD PTR [RSI + 0x20], RDX</td></tr><tr><td align="left">MOV        RDX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE0]</td></tr><tr><td align="left">MOV        QWORD PTR [RDX + 0x30], RAX</td></tr><tr><td align="left">MOV        RAX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE8]</td></tr><tr><td align="left">MOV        RDX, QWORD PTR [RAX]</td></tr><tr><td align="left">MOV        RDX, QWORD PTR [RDX + 0xD0]</td></tr><tr><td align="left">MOV        RSI, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE0]</td></tr><tr><td align="left">MOV        RDI, RAX</td></tr><tr><td align="left">CALL       RDX</td></tr></table>> ];
+8747833981109 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_0000000000401611</td></tr><tr><td align="left">MOV        RDX, 0x32</td></tr><tr><td align="left">MOV        QWORD PTR [RBP + 0xFFFFFFFFFFFFFFD0], RAX</td></tr><tr><td align="left">MOV        RDI, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFD8]</td></tr><tr><td align="left">MOV        RAX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFF0]</td></tr><tr><td align="left">MOV        RSI, QWORD PTR [RAX + 0x8]</td></tr><tr><td align="left">CALL       loc_00000000004006D0:0x004006d0</td></tr></table>> ];
+8747833980949 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004015AD</td></tr><tr><td align="left">MOV        DWORD PTR [RBP + 0xFFFFFFFFFFFFFFFC], 0x0</td></tr><tr><td align="left">JMP        loc_0000000000401752:0x00401752</td></tr></table>> ];
+8747833986165 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004016AC</td></tr><tr><td align="left">MOV        RCX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE0]</td></tr><tr><td align="left">CMP        DWORD PTR [RCX], 0x0</td></tr><tr><td align="left">JNZ        loc_00000000004016CE:0x004016ce</td></tr></table>> ];
+8747833986241 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004016CE</td></tr><tr><td align="left">MOV        RAX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFD0]</td></tr><tr><td align="left">CMP        RAX, 0x0</td></tr><tr><td align="left">MOV        QWORD PTR [RBP + 0xFFFFFFFFFFFFFF98], RAX</td></tr><tr><td align="left">JZ         loc_00000000004016EE:0x004016ee</td></tr></table>> ];
+8747833991241 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_000000000040170B</td></tr><tr><td align="left">MOV        RAX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE0]</td></tr><tr><td align="left">CMP        RAX, 0x0</td></tr><tr><td align="left">MOV        QWORD PTR [RBP + 0xFFFFFFFFFFFFFF88], RAX</td></tr><tr><td align="left">JZ         loc_000000000040172B:0x0040172b</td></tr></table>> ];
+8747833986125 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_0000000000401682</td></tr><tr><td align="left">MOV        RDX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE8]</td></tr><tr><td align="left">MOV        RSI, QWORD PTR [RDX]</td></tr><tr><td align="left">MOV        RSI, QWORD PTR [RSI + 0xD8]</td></tr><tr><td align="left">MOV        RDI, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE0]</td></tr><tr><td align="left">MOV        QWORD PTR [RBP + 0xFFFFFFFFFFFFFFB0], RDI</td></tr><tr><td align="left">MOV        RDI, RDX</td></tr><tr><td align="left">MOV        RDX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFB0]</td></tr><tr><td align="left">MOV        QWORD PTR [RBP + 0xFFFFFFFFFFFFFFA8], RSI</td></tr><tr><td align="left">MOV        RSI, RDX</td></tr><tr><td align="left">MOV        RCX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFA8]</td></tr><tr><td align="left">CALL       RCX</td></tr></table>> ];
+8747833981005 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004015D4</td></tr><tr><td align="left">MOV        RDI, 0x38</td></tr><tr><td align="left">MOV        RAX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFC0]</td></tr><tr><td align="left">MOV        QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE8], RAX</td></tr><tr><td align="left">CALL       loc_00000000004006C0:0x004006c0</td></tr></table>> ];
+8747834008273 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_0000000000401585</td></tr><tr><td align="left">MOV        DWORD PTR [RBP + 0xFFFFFFFFFFFFFFFC], 0x0</td></tr><tr><td align="left">MOV        DWORD PTR [RBP + 0xFFFFFFFFFFFFFFCC], EAX</td></tr><tr><td align="left">JMP        loc_0000000000401752:0x00401752</td></tr></table>> ];
+8747834008277 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004015B9</td></tr><tr><td align="left">MOV        RDI, 0x40</td></tr><tr><td align="left">CALL       loc_00000000004006C0:0x004006c0</td></tr></table>> ];
+8747834008153 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_0000000000401594</td></tr><tr><td align="left">MOV        RAX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFF0]</td></tr><tr><td align="left">MOV        RDI, QWORD PTR [RAX + 0x8]</td></tr><tr><td align="left">CALL       loc_00000000004006A0:0x004006a0</td></tr></table>> ];
+8747834008285 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_0000000000401752</td></tr><tr><td align="left">MOV        EAX, DWORD PTR [RBP + 0xFFFFFFFFFFFFFFFC]</td></tr><tr><td align="left">ADD        RSP, 0x80</td></tr><tr><td align="left">POP        RBP</td></tr><tr><td align="left">RET        </td></tr></table>> ];
+8747833986085 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_000000000040166F</td></tr><tr><td align="left">MOV        RDX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE8]</td></tr><tr><td align="left">MOV        RSI, QWORD PTR [RDX]</td></tr><tr><td align="left">MOV        RDI, RDX</td></tr><tr><td align="left">MOV        DWORD PTR [RBP + 0xFFFFFFFFFFFFFFBC], EAX</td></tr><tr><td align="left">CALL       QWORD PTR [RSI + 0xE0]</td></tr></table>> ];
+8747833981037 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004015EB</td></tr><tr><td align="left">MOV        RDI, 0x64</td></tr><tr><td align="left">MOV        QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE0], RAX</td></tr><tr><td align="left">CALL       loc_0000000000400670:0x00400670</td></tr></table>> ];
+8747833991281 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_000000000040172B</td></tr><tr><td align="left">MOV        RAX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFE8]</td></tr><tr><td align="left">CMP        RAX, 0x0</td></tr><tr><td align="left">MOV        QWORD PTR [RBP + 0xFFFFFFFFFFFFFF80], RAX</td></tr><tr><td align="left">JZ         loc_000000000040174B:0x0040174b</td></tr></table>> ];
+8747833986293 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004016E2</td></tr><tr><td align="left">MOV        RAX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFF98]</td></tr><tr><td align="left">MOV        RDI, RAX</td></tr><tr><td align="left">CALL       loc_00000000004006B0:0x004006b0</td></tr></table>> ];
+8747834008189 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_0000000000401576</td></tr><tr><td align="left">LEA        RDI, QWORD PTR [0x401AC0]</td></tr><tr><td align="left">MOV        AL, 0x0</td></tr><tr><td align="left">CALL       loc_0000000000400650:0x00400650</td></tr></table>> ];
+8747833991341 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_000000000040173F</td></tr><tr><td align="left">MOV        RAX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFF80]</td></tr><tr><td align="left">MOV        RDI, RAX</td></tr><tr><td align="left">CALL       loc_0000000000400680:0x00400680</td></tr></table>> ];
+8747833991189 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td colspan="2" align="center" bgcolor="grey">loc_00000000004016EE</td></tr><tr><td align="left">MOV        RAX, QWORD PTR [RBP + 0xFFFFFFFFFFFFFFD8]</td></tr><tr><td align="left">CMP        RAX, 0x0</td></tr><tr><td align="left">MOV        QWORD PTR [RBP + 0xFFFFFFFFFFFFFF90], RAX</td></tr><tr><td align="left">JZ         loc_000000000040170B:0x0040170b</td></tr></table>> ];
+8747834008081 -> 8747834008153[color="limegreen"];
+8747834008081 -> 8747834008189[color="red"];
+8747834008153 -> 8747834008237[color="blue"];
+8747834008189 -> 8747834008273[color="blue"];
+8747834008237 -> 8747834008277[color="limegreen"];
+8747834008237 -> 8747833980949[color="red"];
+8747833980949 -> 8747834008285[color="blue"];
+8747834008273 -> 8747834008285[color="blue"];
+8747834008277 -> 8747833980965[color="blue"];
+8747833980965 -> 8747833981005[color="blue"];
+8747833981005 -> 8747833981037[color="blue"];
+8747833981037 -> 8747833981077[color="blue"];
+8747833981077 -> 8747833981109[color="blue"];
+8747833981109 -> 8747833981149[color="blue"];
+8747833981149 -> 8747833986085[color="blue"];
+8747833986085 -> 8747833986125[color="blue"];
+8747833986125 -> 8747833986165[color="blue"];
+8747833986165 -> 8747833986201[color="red"];
+8747833986165 -> 8747833986241[color="limegreen"];
+8747833986201 -> 8747833986285[color="blue"];
+8747833986285 -> 8747833986241[color="blue"];
+8747833986241 -> 8747833986293[color="red"];
+8747833986241 -> 8747833991189[color="limegreen"];
+8747833986293 -> 8747833991189[color="blue"];
+8747833991189 -> 8747833991233[color="red"];
+8747833991189 -> 8747833991241[color="limegreen"];
+8747833991233 -> 8747833991241[color="blue"];
+8747833991241 -> 8747833991281[color="limegreen"];
+8747833991241 -> 8747833991317[color="red"];
+8747833991317 -> 8747833991281[color="blue"];
+8747833991281 -> 8747833991337[color="limegreen"];
+8747833991337 -> 8747834008285[color="blue"];
+8747833991281 -> 8747833991341[color="red"];
+8747833991341 -> 8747833991337[color="blue"];
+}
