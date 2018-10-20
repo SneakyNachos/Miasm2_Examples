@@ -1,0 +1,3 @@
+https://github.com/NWMonster/CrackMe/blob/master/300.bin
+
+This is an example of ripping out the virtual machine drawing the interpreted bytecode instructions.
